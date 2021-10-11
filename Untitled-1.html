@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easyshop- comprar a un click de distancia</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css_style.css">
+</head>
+
+<body>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/brand.png" alt="Easyshop" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="#">mi cuenta</a>
+        </li>
+        <li>
+          <a href="#">favoritos</a>
+        </li>
+        <li>
+          <a href="#">mis compras</a>
+        </li>
+        <li>
+          <a href="#">configuracion</a>
+        </li>
+        <li>
+          <a href="#">ayuda</a>
+        </li>
+        <li>
+          <a href="#">soporte tecnico</a>
+        </li>
+        <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <form class="col-12" th:action="@{/login}" method="get">
+              <div class="form-group" id="user-group">
+                  <input type="text" class="form-control" placeholder="Nombre de usuario" name="username"/>
+              </div>
+          </li>
+        <li>
+          <div class="form-group" id="contrasena-group">
+            <input type="password" class="form-control" placeholder="Contrasena" name="password"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
+    </form>
+    <li>
+      <div class="col-12 forgot">
+        <a href="#">Recordar contrasena?</a>
+    </div>
+    </li>
+<input type="date" id="start" name="trip-start"
+       value="0000-00-00"
+       min="1900-01-01" max="2021-12-31">
+        </li>
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+  <!-- SHOWCASE -->
+    <header class="showcase">
+      <h2>Que espereas para empezar a ahorrar</h2>
+      <p>Aprobecha cientos de descuentos en marcas selecionadas y mas vendidas easyshop es una empresa potosina que se dedica a la venta de articulos por medio de internet contando una interfaz de usuario limpia y secilla para su uso en cualquier entrono</p>
+      <a href="#" class="btn">
+        Registrarse <i class="fas fa-chevron-right"></i>
+      </a>
+    </header>
+
+    <!-- NEWS CARDS -->
+    <div class="news-cards">
+      <div>
+        <img src="img/Qué-es-el-eCommerce-compressor.jpg" alt="" />
+        <h3>¿Como comprar con easyshop.</h3>
+        <p>comprar en easyahop es muy facil solo selciona el producto que quieras,selecciona el metodo de paga y listo. 
+        </p>
+        <a href="#">Ver mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/Ecommerce-Thumbnail.jpg" alt="" />
+        <h3>¿como recivo mi pedido?</h3>
+        <p> su pedido siempre estara seguro, con nuestro sistema de logistica se la enviara su paquete lo mas rapido posible.
+        </p>
+        <a href="#">Ver mas<i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <div>
+            <img src="img/E-commerce.jpg" alt="" />
+            <h3>¿como pagar?</h3>
+            <p>
+               puede utilizar multiples metodos de pago desde tarjetas de credito,debito, o pagos en efectivo en establecimientos autorizados
+            </p>
+            <a href="#">Ver mas <i class="fas fa-angle-double-right"></i></a>
+          </div>
+       </div>
+       <div>
+          <h3>Ubicanos</h3>
+          <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1847.4134699829415!2d-100.95874035102239!3d22.170658685074837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1633485153481!5m2!1ses!2smx" width="400" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </p>
+          <a href="#">Ver mas <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <a href="#"> <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+    <!-- third card -->
+    <section class="cards-banner-two">
+      <div class="content">
+        <h2>Easyshop una nueva forma de comprar en linea</h2>
+        <!-- lorem 30 -->
+        <p>Easyshop es una nueva plataforma de e-commerce mas facil y sencilla</p>
+        <a href="#" class="btn">ver mas <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <!-- Follow -->
+    <section class="social">
+      <p>Follow Easyshop</p>
+      <div class="links">
+        <a href="https://facebook.com">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="footer-links">
+    <div class="footer-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Easyshop</h3>
+          </a>
+        </li>
+        <li>
+            <a href="#">mi cuenta</a>
+          </li>
+          <li>
+            <a href="#">favoritos</a>
+          </li>
+          <li>
+            <a href="#">mis compras</a>
+          </li>
+          <li>
+            <a href="#">configuracion</a>
+          </li>
+          <li>
+            <a href="#">ayuda</a>
+          </li>
+          <li>
+            <a href="#">soporte tecnico</a>
+          </li>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3></h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
